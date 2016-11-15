@@ -76,11 +76,11 @@ class PmChair extends PluginBase implements Listener {
 									Entity::DATA_TYPE_STRING,
 									$this->get("tagblock-message") 
 							],
-							Entity::DATA_SHOW_NAMETAG => [ 
+							Entity::DATA_FLAG_CAN_SHOW_NAMETAG => [ 
 									Entity::DATA_TYPE_BYTE,
 									1 
 							],
-							Entity::DATA_NO_AI => [ 
+							Entity::DATA_FLAG_NO_AI => [ 
 									Entity::DATA_TYPE_BYTE,
 									1 
 							] 
